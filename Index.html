@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixmigo - AI Cinematic Adventure Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cinematic-bg text-white font-sans">
+    <div id="intro-background" class="cinematic-intro">
+        <h1 id="intro-title" class="pixmigo-logo">Pixmigo AI Presents</h1>
+    </div>
+    <div class="container mx-auto px-4 py-10">
+        <div class="bg-white rounded-xl shadow-lg p-6 pixmigo-glass">
+            <h2 class="text-3xl font-bold mb-3">Create AI-Powered Luxury Action Films</h2>
+            <textarea id="film-prompt" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-purple-500"
+                      rows="4" placeholder="Enter a cinematic adventure script..."></textarea>
+            <select id="theme" class="w-full p-3 rounded-lg border">
+                <option value="cinematic">Epic Cinematic</option>
+                <option value="luxury">Luxury Travel</option>
+                <option value="adventure">Thrilling Action</option>
+                <option value="space">Galactic Battles</option>
+            </select>
+            <button id="generate-film" class="pixmigo-btn w-full mt-6">Generate Cinematic Film</button>
+            <div id="film-container" class="mt-6">
+                <p class="text-center text-gray-500">Your generated film sequence will appear here</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+  </html>
