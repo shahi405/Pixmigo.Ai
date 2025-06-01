@@ -1,0 +1,19 @@
+.pixmigo-glass {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.2);
+}
+.pixmigo-logo {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: title-fly 1.5s ease-in-out forwards;
+}
+.cinematic-bg {
+    background: url('https://source.unsplash.com/1600x900/?luxury,adventure') center/cover;
+    animation: cinematic-glow 8s infinite alternate;
+  }
